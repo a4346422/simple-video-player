@@ -4,6 +4,10 @@ compatibility_flags = ["nodejs_compat"]
 
 pages_build_output_dir = "dist"
 
+ADMIN_PASSWORD = "123456"
+LOGIN_JWT_SECRET_KEY = "123456"
+PG_CONNECTION_STRING = "postgresql://postgres:[vsNSK3r!.vkixp3]@db.byvwteevinxosvwhjala.supabase.co:5432/postgres"
+
 #kv_namespaces = [
 #  { binding = "VIDEO_CONFIG", id = "your kv id"}
 #]
